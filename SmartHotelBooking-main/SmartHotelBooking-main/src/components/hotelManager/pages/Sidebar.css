@@ -1,0 +1,37 @@
+.manager-sidebar{
+  width: 220px;
+  padding: 20px;
+  background: #fff;
+  border-right: 1px solid #e6e6e6;
+  min-height: calc(100vh - 0px); /* adjust if you have header height */
+  box-sizing: border-box;
+}
+
+
+
+.sidebar-nav{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.nav-item{
+  display:block;
+  text-decoration:none;
+  color:#374151; /* muted dark */
+  padding:12px 14px;
+  border-radius:8px;
+  background:transparent;
+  border:1px solid transparent;
+  font-weight:600;
+}
+
+.nav-item:hover{
+  background:#f3f4f6;
+}
+
+.nav-item.active{
+  background:#fcebea; /* pale highlight like your sketch */
+  color:#b91c1c; /* accent */
+  border:1px solid #fbcaca;
+}

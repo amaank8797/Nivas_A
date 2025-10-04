@@ -1,0 +1,201 @@
+
+
+[
+  {
+    "id": "cbe001",
+    "name": "Coimbatore Grand Hotel",
+    "city": "Coimbatore",
+    "rating": 4.5,
+    "pricePerNight": 4000,
+    "images": ["/img1.jpg"],
+    "amenities": ["Free WiFi", "Pool", "Breakfast included"],
+    "rooms": [
+      { "id": "cbe001-r1", "type": "Single", "price": 1800, "maxGuests": 1, "description": "Cozy single room with city view", "inventory": 5 },
+      { "id": "cbe001-r2", "type": "Couple", "price": 3200, "maxGuests": 2, "description": "Comfortable couple room", "inventory": 7 },
+      { "id": "cbe001-r3", "type": "Suite", "price": 5500, "maxGuests": 4, "description": "Luxury suite with living area", "inventory": 2 }
+    ]
+  },
+  {
+    "id": "cbe002",
+    "name": "Heritage Residency",
+    "city": "Coimbatore",
+    "rating": 4.3,
+    "pricePerNight": 3500,
+    "images": ["/img1.jpg"],
+    "amenities": ["Gym", "Parking", "Restaurant"],
+    "rooms": [
+      { "id": "cbe002-r1", "type": "Single", "price": 2000, "maxGuests": 1, "description": "Simple single room", "inventory": 6 },
+      { "id": "cbe002-r2", "type": "Couple", "price": 3600, "maxGuests": 2, "description": "Well-furnished couple room", "inventory": 4 }
+    ]
+  },
+  {
+    "id": "cbe003",
+    "name": "Mountain Breeze Resort",
+    "city": "Coimbatore",
+    "rating": 4.7,
+    "pricePerNight": 6000,
+    "images": ["/img1.jpg"],
+    "amenities": ["Spa", "Breakfast", "Outdoor Activities"],
+    "rooms": [
+      { "id": "cbe003-r1", "type": "Couple", "price": 5000, "maxGuests": 2, "description": "Romantic room with mountain view", "inventory": 3 },
+      { "id": "cbe003-r2", "type": "Suite", "price": 8000, "maxGuests": 4, "description": "Premium suite with balcony", "inventory": 1 }
+    ]
+  },
+  {
+    "id": "cbe004",
+    "name": "Green Park Inn",
+    "city": "Coimbatore",
+    "rating": 4.0,
+    "pricePerNight": 2800,
+    "images": ["/img1.jpg"],
+    "amenities": ["Free WiFi", "Restaurant", "Parking"],
+    "rooms": [
+      { "id": "cbe004-r1", "type": "Single", "price": 1500, "maxGuests": 1, "description": "Budget single room", "inventory": 10 },
+      { "id": "cbe004-r2", "type": "Couple", "price": 2700, "maxGuests": 2, "description": "Standard couple room", "inventory": 5 }
+    ]
+  },
+  {
+    "id": "cbe005",
+    "name": "Palm Grove Hotel",
+    "city": "Coimbatore",
+    "rating": 4.4,
+    "pricePerNight": 4200,
+    "images": ["/img1.jpg"],
+    "amenities": ["Pool", "Gym", "Breakfast included"],
+    "rooms": [
+      { "id": "cbe005-r1", "type": "Single", "price": 2200, "maxGuests": 1, "description": "Spacious single room", "inventory": 4 },
+      { "id": "cbe005-r2", "type": "Couple", "price": 3800, "maxGuests": 2, "description": "Modern couple room", "inventory": 6 },
+      { "id": "cbe005-r3", "type": "Suite", "price": 6500, "maxGuests": 4, "description": "Luxury suite with pool view", "inventory": 2 }
+    ]
+  },
+  {
+    "id": "cbe006",
+    "name": "Skyline Residency",
+    "city": "Coimbatore",
+    "rating": 4.1,
+    "pricePerNight": 3000,
+    "images": ["/img1.jpg"],
+    "amenities": ["Rooftop Cafe", "Free WiFi"],
+    "rooms": [
+      { "id": "cbe006-r1", "type": "Single", "price": 1700, "maxGuests": 1, "description": "Basic single room", "inventory": 8 },
+      { "id": "cbe006-r2", "type": "Couple", "price": 3100, "maxGuests": 2, "description": "Compact couple room", "inventory": 5 }
+    ]
+  },
+  {
+    "id": "cbe007",
+    "name": "Royal Orchid Suites",
+    "city": "Coimbatore",
+    "rating": 4.6,
+    "pricePerNight": 5200,
+    "images": ["/img1.jpg"],
+    "amenities": ["Banquet Hall", "Gym", "Pool"],
+    "rooms": [
+      { "id": "cbe007-r1", "type": "Couple", "price": 4200, "maxGuests": 2, "description": "Elegant couple room", "inventory": 4 },
+      { "id": "cbe007-r2", "type": "Suite", "price": 7800, "maxGuests": 4, "description": "Premium suite with living room", "inventory": 2 }
+    ]
+  },
+  {
+    "id": "cbe008",
+    "name": "Lakeview Residency",
+    "city": "Coimbatore",
+    "rating": 4.2,
+    "pricePerNight": 3300,
+    "images": ["/img1.jpg"],
+    "amenities": ["Lake View", "Free Breakfast"],
+    "rooms": [
+      { "id": "cbe008-r1", "type": "Single", "price": 1900, "maxGuests": 1, "description": "Single room with lake view", "inventory": 3 },
+      { "id": "cbe008-r2", "type": "Couple", "price": 3400, "maxGuests": 2, "description": "Couple room facing the lake", "inventory": 5 }
+    ]
+  },
+  {
+    "id": "cbe009",
+    "name": "Lakeview Residency",
+    "city": "Coimbatore",
+    "rating": 4.2,
+    "pricePerNight": 3300,
+    "images": ["/img1.jpg"],
+    "amenities": ["Lake View", "Free Breakfast"],
+    "rooms": [
+      { "id": "cbe008-r1", "type": "Single", "price": 1900, "maxGuests": 1, "description": "Single room with lake view", "inventory": 3 },
+      { "id": "cbe008-r2", "type": "Couple", "price": 3400, "maxGuests": 2, "description": "Couple room facing the lake", "inventory": 5 }
+    ]
+  },
+  {
+    "id": "cbe007",
+    "name": "Royal Orchid Suites",
+    "city": "Coimbatore",
+    "rating": 4.6,
+    "pricePerNight": 5200,
+    "images": ["/img1.jpg"],
+    "amenities": ["Banquet Hall", "Gym", "Pool"],
+    "rooms": [
+      { "id": "cbe007-r1", "type": "Couple", "price": 4200, "maxGuests": 2, "description": "Elegant couple room", "inventory": 4 },
+      { "id": "cbe007-r2", "type": "Suite", "price": 7800, "maxGuests": 4, "description": "Premium suite with living room", "inventory": 2 }
+    ]
+  },
+  {
+    "id": "cbe008",
+    "name": "Lakeview Residency",
+    "city": "Coimbatore",
+    "rating": 4.2,
+    "pricePerNight": 3300,
+    "images": ["/img1.jpg"],
+    "amenities": ["Lake View", "Free Breakfast"],
+    "rooms": [
+      { "id": "cbe008-r1", "type": "Single", "price": 1900, "maxGuests": 1, "description": "Single room with lake view", "inventory": 3 },
+      { "id": "cbe008-r2", "type": "Couple", "price": 3400, "maxGuests": 2, "description": "Couple room facing the lake", "inventory": 5 }
+    ]
+  },
+  {
+    "id": "cbe009",
+    "name": "Lakeview Residency",
+    "city": "Coimbatore",
+    "rating": 4.2,
+    "pricePerNight": 3300,
+    "images": ["/img1.jpg"],
+    "amenities": ["Lake View", "Free Breakfast"],
+    "rooms": [
+      { "id": "cbe008-r1", "type": "Single", "price": 1900, "maxGuests": 1, "description": "Single room with lake view", "inventory": 3 },
+      { "id": "cbe008-r2", "type": "Couple", "price": 3400, "maxGuests": 2, "description": "Couple room facing the lake", "inventory": 5 }
+    ]
+  },
+  {
+    "id": "cbe007",
+    "name": "Royal Orchid Suites",
+    "city": "Coimbatore",
+    "rating": 4.6,
+    "pricePerNight": 5200,
+    "images": ["/img1.jpg"],
+    "amenities": ["Banquet Hall", "Gym", "Pool"],
+    "rooms": [
+      { "id": "cbe007-r1", "type": "Couple", "price": 4200, "maxGuests": 2, "description": "Elegant couple room", "inventory": 4 },
+      { "id": "cbe007-r2", "type": "Suite", "price": 7800, "maxGuests": 4, "description": "Premium suite with living room", "inventory": 2 }
+    ]
+  },
+  {
+    "id": "cbe008",
+    "name": "Lakeview Residency",
+    "city": "Coimbatore",
+    "rating": 4.2,
+    "pricePerNight": 3300,
+    "images": ["/img1.jpg"],
+    "amenities": ["Lake View", "Free Breakfast"],
+    "rooms": [
+      { "id": "cbe008-r1", "type": "Single", "price": 1900, "maxGuests": 1, "description": "Single room with lake view", "inventory": 3 },
+      { "id": "cbe008-r2", "type": "Couple", "price": 3400, "maxGuests": 2, "description": "Couple room facing the lake", "inventory": 5 }
+    ]
+  },
+  {
+    "id": "cbe009",
+    "name": "Lakeview Residency",
+    "city": "Coimbatore",
+    "rating": 4.2,
+    "pricePerNight": 3300,
+    "images": ["/img1.jpg"],
+    "amenities": ["Lake View", "Free Breakfast"],
+    "rooms": [
+      { "id": "cbe008-r1", "type": "Single", "price": 1900, "maxGuests": 1, "description": "Single room with lake view", "inventory": 3 },
+      { "id": "cbe008-r2", "type": "Couple", "price": 3400, "maxGuests": 2, "description": "Couple room facing the lake", "inventory": 5 }
+    ]
+  }
+]

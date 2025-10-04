@@ -1,0 +1,211 @@
+/* General container for the page content */
+.manage-rooms-container {
+  padding: 20px;
+  background-color: #f5f7fa; /* Light grey background */
+  min-height: 100vh; /* Fill the viewport height */
+}
+
+/* Header with title and button */
+.manage-rooms-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.manage-rooms-header h1 {
+  font-size: 28px;
+  color: #333;
+}
+
+.add-room-btn {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.add-room-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Filter/dropdown section */
+.filter-section {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-section label {
+  font-weight: bold;
+  color: #555;
+}
+
+.filter-section select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  min-width: 200px;
+  appearance: none; /* Remove default dropdown arrow */
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 24px;
+}
+
+
+/* Table styling */
+.rooms-table-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rooms-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rooms-table th,
+.rooms-table td {
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.rooms-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.rooms-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Action buttons in table */
+.action-btn {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.edit-btn {
+  background-color: #ffc107; /* Yellow */
+  color: #333;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn {
+  background-color: #dc3545; /* Red */
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.select-hotel-prompt {
+  text-align: center;
+  color: #6c757d;
+  font-style: italic;
+  padding: 30px;
+  font-size: 1.1em;
+}
+
+/* Modal for adding a new room (reusing styles from ManageHotels if applicable, or defining here) */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  max-width: 90%;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.modal-add-btn,
+.modal-cancel-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.modal-add-btn {
+  background-color: #28a745; /* Green */
+  color: #fff;
+}
+
+.modal-add-btn:hover {
+  background-color: #218838;
+}
+
+.modal-cancel-btn {
+  background-color: #6c757d; /* Grey */
+  color: #fff;
+}
+
+.modal-cancel-btn:hover {
+  background-color: #5a6268;
+}

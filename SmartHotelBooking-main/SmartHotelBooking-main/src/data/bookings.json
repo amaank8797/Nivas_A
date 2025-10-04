@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "hotelName": "Coimbatore Grand Hotel",
+    "roomName": "Deluxe Double",
+    "checkIn": "2025-10-12",
+    "checkOut": "2025-10-15",
+    "status": "Confirmed",
+    "bookingRef": "AT-1001",
+    "price": 12000
+  },
+  {
+    "id": 2,
+    "hotelName": "Heritage Residency",
+    "roomName": "Standard Twin",
+    "checkIn": "2025-11-01",
+    "checkOut": "2025-11-03",
+    "status": "Pending",
+    "bookingRef": "AT-1002",
+    "price": 7000
+  },
+  {
+    "id": 3,
+    "hotelName": "Green Park Inn",
+    "roomName": "Suite",
+    "checkIn": "2025-09-05",
+    "checkOut": "2025-09-06",
+    "status": "Completed",
+    "bookingRef": "AT-1003",
+    "price": 3500
+  }
+]

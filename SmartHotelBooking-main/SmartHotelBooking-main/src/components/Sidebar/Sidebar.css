@@ -1,0 +1,81 @@
+:root{
+  --header-h: 64px; /* adjust if your navbar is taller/shorter */
+  --sidebar-w: 220px;
+}
+
+/* overlay for mobile drawer */
+.guest-overlay{
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 40;
+}
+
+/* Desktop: a fixed sidebar under header.
+   Mobile: transforms in/out as a drawer from left.
+*/
+.guest-sidebar-drawer{
+  /* default hidden off-canvas for mobile */
+  position: fixed;
+  top: var(--header-h);
+  left: 0;
+  height: calc(100vh - var(--header-h));
+  width: var(--sidebar-w);
+  max-width: 85%;
+  padding: 20px;
+  background: #fff;
+  border-right: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  z-index: 50;
+
+  transform: translateX(-110%);
+  transition: transform 260ms cubic-bezier(.2,.9,.2,1);
+  overflow: auto; /* keep sidebar itself scrollable if long */
+}
+
+/* open state for mobile drawer */
+.guest-sidebar-drawer.open{
+  transform: translateX(0);
+}
+
+/* Large screens: keep sidebar always visible & non-transforming.
+   The sidebar stays fixed under the navbar and doesn't scroll with page.
+*/
+@media (min-width: 1024px){
+  .guest-sidebar-drawer{
+    transform: translateX(0);
+    position: fixed;
+    top: var(--header-h);
+    left: 0;
+    width: var(--sidebar-w);
+    height: calc(100vh - var(--header-h));
+  }
+}
+
+/* nav list */
+.sidebar-nav{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.nav-item{
+  display:block;
+  text-decoration:none;
+  color:#374151; /* muted dark */
+  padding:12px 14px;
+  border-radius:8px;
+  background:transparent;
+  border:1px solid transparent;
+  font-weight:600;
+}
+
+.nav-item:hover{
+  background:#f3f4f6;
+}
+
+.nav-item.active{
+  background:#fcebea; /* pale highlight like your sketch */
+  color:#b91c1c; /* accent */
+  border:1px solid #fbcaca;
+}

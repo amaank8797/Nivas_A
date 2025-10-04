@@ -1,0 +1,11 @@
+{
+  "account": {
+    "userId": 1,
+    "pointsBalance": 1250,
+    "lastUpdated": "2025-09-10T12:00:00.000Z"
+  },
+  "redemptions": [
+    { "id": 1, "pointsUsed": 200, "discountAmount": "20.00", "timestamp": "2025-07-20T10:00:00.000Z" },
+    { "id": 2, "pointsUsed": 150, "discountAmount": "15.00", "timestamp": "2025-06-02T08:30:00.000Z" }
+  ]
+}

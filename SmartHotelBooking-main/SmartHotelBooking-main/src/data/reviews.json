@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1640995200000,
+    "hotelName": "Coimbatore Grand Hotel",
+    "name": "Anita",
+    "rating": 5,
+    "comment": "Amazing stay — clean rooms and friendly staff. Would recommend!",
+    "timestamp": "2025-08-25T10:30:00.000Z"
+  },
+  {
+    "id": 1641081600000,
+    "hotelName": "Heritage Residency",
+    "name": "Ravi",
+    "rating": 4,
+    "comment": "Good hotel, breakfast could be improved but overall comfortable.",
+    "timestamp": "2025-07-14T08:20:00.000Z"
+  },
+  {
+    "id": 1641168000000,
+    "hotelName": "Green Park Inn",
+    "name": "Sara",
+    "rating": 3,
+    "comment": "Decent for a short stay. Room was a bit noisy at night.",
+    "timestamp": "2025-06-02T21:45:00.000Z"
+  }
+]
