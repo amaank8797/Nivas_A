@@ -1,0 +1,93 @@
+{
+  "hotels": [
+    {
+      "hotel_id": "101",
+      "name": "Palm Grove Residency",
+      "location": "RS Puram, Coimbatore",
+      "managerid": "2",
+      "amenities": [
+        "WiFi",
+        "Parking",
+        "Room Service",
+        "Gym"
+      ],
+      "image":"hotel1.jpg",
+      "price":"4999",
+      "rating": 4.6
+    },
+    {
+      "hotel_id": "102",
+      "name": "Silver Oak Inn",
+      "location": "Gandhipuram, Coimbatore",
+      "managerid": "4",
+      "amenities": [
+        "AC Rooms",
+        "Restaurant",
+        "Laundry",
+        "Conference Hall"
+      ],
+      "image":"hotel2.jpg",
+      "price":"4399",
+      "rating": 4
+    },
+    {
+      "hotel_id": "103",
+      "name": "Blue Orchid Suites",
+      "location": "Peelamedu, Coimbatore",
+      "managerid": "1",
+      "amenities": [
+        "Swimming Pool",
+        "Spa",
+        "Bar",
+        "Airport Shuttle"
+      ],
+      "image":"hotel3.jpg",
+      "price":"6999",
+      "rating": 4.5
+    },
+    {
+      "hotel_id": "104",
+      "name": "Green Valley Stay",
+      "location": "Saibaba Colony, Coimbatore",
+      "managerid": "3",
+      "amenities": [
+        "Garden View",
+        "Pet Friendly",
+        "Free Breakfast",
+        "24/7 Front Desk"
+      ],
+      "image":"hotel4.jpg",
+      "price":"3999",
+      "rating": 4.2
+    },
+    {
+      "hotel_id": "105",
+      "name": "Sunset Horizon Hotel",
+      "location": "Race Course Road, Coimbatore",
+      "managerid": "5",
+      "amenities": [
+        "Rooftop Dining",
+        "Business Center",
+        "Valet Parking",
+        "Fitness Studio"
+      ],
+      "image":"hotel5.jpg",
+      "price":"2999",
+      "rating": 4.6
+    },
+    {
+      "name": "Green Valley Resort",
+      "location": "Peelamedu, Coimbatore",
+      "managerid": "6",
+      "amenities": [
+        "Pool",
+        "Spa",
+        "WiFi"
+      ],
+      "image":"hotel6.jpg",
+      "price":"7999",
+      "rating": 4.5,
+      "hotel_id": "6"
+    }
+  ]
+}

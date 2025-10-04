@@ -1,0 +1,36 @@
+{
+  "reviews": [
+    {
+      "review_id": "RV003",
+      "user_id": "3",
+      "hotel_id": "105",
+      "rating": 5,
+      "comment": "Loved the rooftop dining and ambiance!",
+      "timestamp": "2025-09-28T21:30:00"
+    },
+    {
+      "review_id": "RV004",
+      "user_id": "4",
+      "hotel_id": "102",
+      "rating": 2,
+      "comment": "Clean rooms and friendly staff.",
+      "timestamp": "2025-09-18T08:00:00"
+    },
+    {
+      "review_id": "RV005",
+      "user_id": "5",
+      "hotel_id": "104",
+      "rating": 3,
+      "comment": "Peaceful stay with a nice garden view.",
+      "timestamp": "2025-09-22T16:20:00"
+    },
+    {
+      "user_id": "3",
+      "hotel_id": "102",
+      "rating": 4,
+      "comment": "Absolutely loved the stay!",
+      "timestamp": "2025-09-25T14:30:00",
+      "review_id": "RV1758213282207"
+    }
+  ]
+}

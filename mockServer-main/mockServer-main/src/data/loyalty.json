@@ -1,0 +1,34 @@
+{
+  "loyalty": [
+    {
+      "loyalty_id": "L001",
+      "user_id": "1",
+      "pointsbalance": 2000,
+      "lastupdated": "2025-09-26"
+    },
+    {
+      "loyalty_id": "L003",
+      "user_id": "3",
+      "pointsbalance": 1500,
+      "lastupdated": "2025-09-28"
+    },
+    {
+      "loyalty_id": "L004",
+      "user_id": "4",
+      "pointsbalance": 950,
+      "lastupdated": "2025-09-18"
+    },
+    {
+      "loyalty_id": "L005",
+      "user_id": "5",
+      "pointsbalance": 1100,
+      "lastupdated": "2025-09-22"
+    },
+    {
+      "user_id": "3",
+      "pointsbalance": 1500,
+      "lastupdated": "2025-09-25",
+      "loyalty_id": "L1758216144288"
+    }
+  ]
+}

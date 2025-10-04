@@ -1,0 +1,64 @@
+{
+  "bookings": [
+    {
+      "booking_id": "B001",
+      "user_id": "1",
+      "hotel_id": "101",
+      "room_id": "R001",
+      "checkindate": "2025-09-20",
+      "checkoutdate": "2025-09-23",
+      "status": "checked-in",
+      "payment_id": "P1001"
+    },
+    {
+      "booking_id": "B003",
+      "user_id": "3",
+      "hotel_id": "102",
+      "room_id": "R002",
+      "checkindate": "2025-09-25",
+      "checkoutdate": "2025-09-28",
+      "status": "pending",
+      "payment_id": "P1003"
+    },
+    {
+      "booking_id": "B004",
+      "user_id": "103",
+      "hotel_id": "3",
+      "room_id": "R003",
+      "checkindate": "2025-09-17",
+      "checkoutdate": "2025-09-18",
+      "status": "confirmed",
+      "payment_id": "P1004"
+    },
+    {
+      "booking_id": "B005",
+      "user_id": "5",
+      "hotel_id": "104",
+      "room_id": "R004",
+      "checkindate": "2025-09-21",
+      "checkoutdate": "2025-09-22",
+      "status": "confirmed",
+      "payment_id": "P1005"
+    },
+    {
+      "user_id": "3",
+      "hotel_id": "105",
+      "room_id": "R005",
+      "checkindate": "2025-10-01",
+      "checkoutdate": "2025-10-05",
+      "status": "pending",
+      "payment_id": "P1003",
+      "booking_id": "B1758213049033"
+    },
+    {
+      "user_id": "1",
+      "hotel_id": "101",
+      "room_id": "R001",
+      "checkindate": "2025-09-30",
+      "checkoutdate": "2025-10-02",
+      "status": "confirmed",
+      "booking_id": "B1759166640686",
+      "payment_id": "P1759166663357"
+    }
+  ]
+}

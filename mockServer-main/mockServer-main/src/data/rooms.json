@@ -1,0 +1,79 @@
+{
+  "rooms": [
+    {
+      "room_id": "R001",
+      "hotel_id": "101",
+      "type": "Deluxe",
+      "price": 3500,
+      "availability": true,
+      "features": [
+        "King Bed",
+        "Balcony",
+        "Mini Fridge",
+        "Smart TV"
+      ]
+    },
+    {
+      "room_id": "R002",
+      "hotel_id": "102",
+      "type": "Standard",
+      "price": 2200,
+      "availability": false,
+      "features": [
+        "Queen Bed",
+        "WiFi",
+        "Air Conditioning"
+      ]
+    },
+    {
+      "room_id": "R003",
+      "hotel_id": "103",
+      "type": "Suite",
+      "price": 4800,
+      "availability": true,
+      "features": [
+        "Living Area",
+        "Bathtub",
+        "Coffee Maker",
+        "City View"
+      ]
+    },
+    {
+      "room_id": "R004",
+      "hotel_id": "104",
+      "type": "Economy",
+      "price": 1800,
+      "availability": true,
+      "features": [
+        "Single Bed",
+        "Fan",
+        "Shared Bathroom"
+      ]
+    },
+    {
+      "room_id": "R005",
+      "hotel_id": "105",
+      "type": "Executive",
+      "price": 4000,
+      "availability": false,
+      "features": [
+        "Workspace",
+        "Rain Shower",
+        "Soundproofing",
+        "Room Service"
+      ]
+    },
+    {
+      "hotel_id": "111",
+      "type": "Suite",
+      "price": 5000,
+      "availability": true,
+      "features": [
+        "King Bed",
+        "Jacuzzi",
+        "Sea View"
+      ],
+      "room_id": "R1758210408637"
+    }
+  ]
+}

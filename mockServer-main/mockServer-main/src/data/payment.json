@@ -1,0 +1,60 @@
+{
+  "payment": [
+    {
+      "payment_id": "P1001",
+      "user_id": "1",
+      "bookingid": "B001",
+      "amount": 14400,
+      "status": "refunded",
+      "paymentmethod": "Credit Card"
+    },
+    {
+      "payment_id": "P1002",
+      "user_id": "2",
+      "bookingid": "B002",
+      "amount": 3200,
+      "status": "refunded",
+      "paymentmethod": "UPI"
+    },
+    {
+      "payment_id": "P1003",
+      "user_id": "3",
+      "bookingid": "B003",
+      "amount": 12000,
+      "status": "pending",
+      "paymentmethod": "Net Banking"
+    },
+    {
+      "payment_id": "P1004",
+      "user_id": "4",
+      "bookingid": "B004",
+      "amount": 2200,
+      "status": "completed",
+      "paymentmethod": "Debit Card"
+    },
+    {
+      "payment_id": "P1005",
+      "user_id": "5",
+      "bookingid": "B005",
+      "amount": 1800,
+      "status": "completed",
+      "paymentmethod": "Cash"
+    },
+    {
+      "user_id": "6",
+      "bookingid": "B003",
+      "amount": 5000,
+      "status": "pending",
+      "paymentmethod": "Net Banking",
+      "payment_id": "P1758212721776"
+    },
+    {
+      "user_id": "1",
+      "bookingid": "B1759166640686",
+      "amount": 7000,
+      "status": "completed",
+      "paymentmethod": "Credit Card",
+      "payment_id": "P1759166663357"
+    }
+  ]
+}

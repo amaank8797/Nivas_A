@@ -1,0 +1,39 @@
+{
+  "redemptions": [
+    {
+      "redemption_id": "RD001",
+      "user_id": "1",
+      "booking_id": "B001",
+      "pointsused": 600,
+      "discountamount": 600
+    },
+    {
+      "redemption_id": "RD003",
+      "user_id": "3",
+      "booking_id": "B003",
+      "pointsused": 700,
+      "discountamount": 700
+    },
+    {
+      "redemption_id": "RD004",
+      "user_id": "4",
+      "booking_id": "B004",
+      "pointsused": 250,
+      "discountamount": 250
+    },
+    {
+      "redemption_id": "RD005",
+      "user_id": "5",
+      "booking_id": "B005",
+      "pointsused": 400,
+      "discountamount": 400
+    },
+    {
+      "user_id": "3",
+      "booking_id": "B003",
+      "pointsused": 700,
+      "discountamount": 700,
+      "redemption_id": "RD1758216294782"
+    }
+  ]
+}

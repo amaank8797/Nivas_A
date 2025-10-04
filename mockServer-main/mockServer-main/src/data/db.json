@@ -1,0 +1,328 @@
+{
+  "user": [
+    {
+      "user_id": "1",
+      "name": "aman",
+      "email": "itsaman@gmail.com",
+      "password": "aman123",
+      "role": "user",
+      "contactnumber": "12345678"
+    },
+    {
+      "user_id": "2",
+      "name": "neha",
+      "email": "neha.kapoor@gmail.com",
+      "password": "neha456",
+      "role": "admin",
+      "contactnumber": "87654321"
+    },
+    {
+      "user_id": "3",
+      "name": "raj",
+      "email": "raj.verma@yahoo.com",
+      "password": "raj789",
+      "role": "user",
+      "contactnumber": "99887766"
+    },
+    {
+      "user_id": "4",
+      "name": "sana",
+      "email": "sana123@hotmail.com",
+      "password": "sana321",
+      "role": "moderator",
+      "contactnumber": "11223344"
+    },
+    {
+      "user_id": "5",
+      "name": "vikas",
+      "email": "vikas.dev@outlook.com",
+      "password": "vikas007",
+      "role": "user",
+      "contactnumber": "44556677"
+    }
+  ],
+  "hotel": [
+    {
+      "hotel_id": "101",
+      "name": "Palm Grove Residency",
+      "location": "RS Puram, Coimbatore",
+      "manager_id": "2",
+      "amenities": ["WiFi", "Parking", "Room Service", "Gym"],
+      "rating": 4.3
+    },
+    {
+      "hotel_id": "102",
+      "name": "Silver Oak Inn",
+      "location": "Gandhipuram, Coimbatore",
+      "manager_id": "4",
+      "amenities": ["AC Rooms", "Restaurant", "Laundry", "Conference Hall"],
+      "rating": 4.0
+    },
+    {
+      "hotel_id": "103",
+      "name": "Blue Orchid Suites",
+      "location": "Peelamedu, Coimbatore",
+      "manager_id": "1",
+      "amenities": ["Swimming Pool", "Spa", "Bar", "Airport Shuttle"],
+      "rating": 4.5
+    },
+    {
+      "hotel_id": "104",
+      "name": "Green Valley Stay",
+      "location": "Saibaba Colony, Coimbatore",
+      "manager_id": "3",
+      "amenities": ["Garden View", "Pet Friendly", "Free Breakfast", "24/7 Front Desk"],
+      "rating": 4.2
+    },
+    {
+      "hotel_id": "105",
+      "name": "Sunset Horizon Hotel",
+      "location": "Race Course Road, Coimbatore",
+      "manager_id": "5",
+      "amenities": ["Rooftop Dining", "Business Center", "Valet Parking", "Fitness Studio"],
+      "rating": 4.6
+    }
+  ],
+  "room": [
+    {
+      "room_id": "R001",
+      "hotel_id": "101",
+      "type": "Deluxe",
+      "price": 3200,
+      "availability": true,
+      "features": ["King Bed", "Balcony", "Mini Fridge", "Smart TV"]
+    },
+    {
+      "room_id": "R002",
+      "hotel_id": "102",
+      "type": "Standard",
+      "price": 2200,
+      "availability": false,
+      "features": ["Queen Bed", "WiFi", "Air Conditioning"]
+    },
+    {
+      "room_id": "R003",
+      "hotel_id": "103",
+      "type": "Suite",
+      "price": 4800,
+      "availability": true,
+      "features": ["Living Area", "Bathtub", "Coffee Maker", "City View"]
+    },
+    {
+      "room_id": "R004",
+      "hotel_id": "104",
+      "type": "Economy",
+      "price": 1800,
+      "availability": true,
+      "features": ["Single Bed", "Fan", "Shared Bathroom"]
+    },
+    {
+      "room_id": "R005",
+      "hotel_id": "105",
+      "type": "Executive",
+      "price": 4000,
+      "availability": false,
+      "features": ["Workspace", "Rain Shower", "Soundproofing", "Room Service"]
+    }
+  ],
+  "booking": [
+    {
+      "booking_id": "B001",
+      "user_id": "1",
+      "room_id": "R003",
+      "checkindate": "2025-09-20",
+      "checkoutdate": "2025-09-23",
+      "status": "confirmed",
+      "payment_id": "P1001"
+    },
+    {
+      "booking_id": "B002",
+      "user_id": "2",
+      "room_id": "R001",
+      "checkindate": "2025-09-18",
+      "checkoutdate": "2025-09-19",
+      "status": "cancelled",
+      "payment_id": "P1002"
+    },
+    {
+      "booking_id": "B003",
+      "user_id": "3",
+      "room_id": "R005",
+      "checkindate": "2025-09-25",
+      "checkoutdate": "2025-09-28",
+      "status": "pending",
+      "payment_id": "P1003"
+    },
+    {
+      "booking_id": "B004",
+      "user_id": "4",
+      "room_id": "R002",
+      "checkindate": "2025-09-17",
+      "checkoutdate": "2025-09-18",
+      "status": "confirmed",
+      "payment_id": "P1004"
+    },
+    {
+      "booking_id": "B005",
+      "user_id": "5",
+      "room_id": "R004",
+      "checkindate": "2025-09-21",
+      "checkoutdate": "2025-09-22",
+      "status": "confirmed",
+      "payment_id": "P1005"
+    }
+  ],
+  "payment": [
+    {
+      "payment_id": "P1001",
+      "user_id": "1",
+      "booking_id": "B001",
+      "amount": 14400,
+      "status": "completed",
+      "paymentmethod": "Credit Card"
+    },
+    {
+      "payment_id": "P1002",
+      "user_id": "2",
+      "booking_id": "B002",
+      "amount": 3200,
+      "status": "refunded",
+      "paymentmethod": "UPI"
+    },
+    {
+      "payment_id": "P1003",
+      "user_id": "3",
+      "booking_id": "B003",
+      "amount": 12000,
+      "status": "pending",
+      "paymentmethod": "Net Banking"
+    },
+    {
+      "payment_id": "P1004",
+      "user_id": "4",
+      "booking_id": "B004",
+      "amount": 2200,
+      "status": "completed",
+      "paymentmethod": "Debit Card"
+    },
+    {
+      "payment_id": "P1005",
+      "user_id": "5",
+      "booking_id": "B005",
+      "amount": 1800,
+      "status": "completed",
+      "paymentmethod": "Cash"
+    }
+  ],
+  "review": [
+    {
+      "reviewid": "RV001",
+      "user_id": "1",
+      "hotel_id": "103",
+      "rating": 4.5,
+      "comment": "Spacious suite and excellent service!",
+      "timestamp": "2025-09-23T18:45:00"
+    },
+    {
+      "reviewid": "RV002",
+      "user_id": "2",
+      "hotel_id": "101",
+      "rating": 3.8,
+      "comment": "Good location but room was a bit noisy.",
+      "timestamp": "2025-09-19T10:15:00"
+    },
+    {
+      "reviewid": "RV003",
+      "user_id": "3",
+      "hotel_id": "105",
+      "rating": 4.9,
+      "comment": "Loved the rooftop dining and ambiance!",
+      "timestamp": "2025-09-28T21:30:00"
+    },
+    {
+      "reviewid": "RV004",
+      "user_id": "4",
+      "hotel_id": "102",
+      "rating": 4.0,
+      "comment": "Clean rooms and friendly staff.",
+      "timestamp": "2025-09-18T08:00:00"
+    },
+    {
+      "reviewid": "RV005",
+      "user_id": "5",
+      "hotel_id": "104",
+      "rating": 4.2,
+      "comment": "Peaceful stay with a nice garden view.",
+      "timestamp": "2025-09-22T16:20:00"
+    }
+  ],
+  "loyaltyaccount": [
+    {
+      "loyalty_id": "L001",
+      "user_id": "1",
+      "pointsbalance": 1200,
+      "lastupdated": "2025-09-23"
+    },
+    {
+      "loyalty_id": "L002",
+      "user_id": "2",
+      "pointsbalance": 800,
+      "lastupdated": "2025-09-19"
+    },
+    {
+      "loyalty_id": "L003",
+      "user_id": "3",
+      "pointsbalance": 1500,
+      "lastupdated": "2025-09-28"
+    },
+    {
+      "loyalty_id": "L004",
+      "user_id": "4",
+      "pointsbalance": 950,
+      "lastupdated": "2025-09-18"
+    },
+    {
+      "loyalty_id": "L005",
+      "user_id": "5",
+      "pointsbalance": 1100,
+      "lastupdated": "2025-09-22"
+    }
+  ],
+  "redemption": [
+    {
+      "redemption_id": "RD001",
+      "user_id": "1",
+      "booking_id": "B001",
+      "pointsused": 500,
+      "discountamount": 500
+    },
+    {
+      "redemption_id": "RD002",
+      "user_id": "2",
+      "booking_id": "B002",
+      "pointsused": 300,
+      "discountamount": 300
+    },
+    {
+      "redemption_id": "RD003",
+      "user_id": "3",
+      "booking_id": "B003",
+      "pointsused": 700,
+      "discountamount": 700
+    },
+    {
+      "redemption_id": "RD004",
+      "user_id": "4",
+      "booking_id": "B004",
+      "pointsused": 250,
+      "discountamount": 250
+    },
+    {
+      "redemption_id": "RD005",
+      "user_id": "5",
+      "booking_id": "B005",
+      "pointsused": 400,
+      "discountamount": 400
+    }
+  ]
+}

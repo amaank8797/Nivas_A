@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "user_id": "1",
+      "name": "aman",
+      "username": "aman1",
+      "email": "itsaman@gmail.com",
+      "password": "aman123",
+      "role": "user",
+      "status": "InActive",
+      "contactnumber": "12345678"
+    },
+    {
+      "user_id": "2",
+      "name": "neha",
+      "username": "neha2",
+      "email": "neha.kapoor@gmail.com",
+      "password": "neha456",
+      "role": "admin",
+      "status": "Active",
+      "contactnumber": "87654321"
+    },
+    {
+      "user_id": "3",
+      "name": "raj",
+      "username": "raj3",
+      "email": "raj.verma@yahoo.com",
+      "password": "raj7890",
+      "role": "user",
+      "status": "InActive",
+      "contactnumber": "99887766"
+    },
+    {
+      "user_id": "4",
+      "name": "sana",
+      "username": "sana4",
+      "email": "sana123@hotmail.com",
+      "password": "sana321",
+      "role": "hotelmanager",
+      "status": "active",
+      "contactnumber": "11223344"
+    },
+    {
+      "user_id": "5",
+      "name": "John Doe",
+      "username": "johnd",
+      "email": "john@example.com",
+      "password": "pass1234",
+      "role": "admin",
+      "status": "Active",
+      "contactnumber": "9876543210"
+    },
+    {
+      "user_id": "6",
+      "name": "Does exist",
+      "username": "doesexist",
+      "email": "does@example.com",
+      "password": "pass1235",
+      "role": "user",
+      "status": "Active",
+      "contactnumber": "9876543211"
+    },
+    {
+      "user_id": "10",
+      "name": "tanay vora",
+      "username": "johnd",
+      "email": "john@example.com",
+      "password": "pass1234",
+      "role": "admin",
+      "status": "Active",
+      "contactnumber": "9876543210"
+    },
+    {
+      "user_id": "11",
+      "email": "krishdubey12@gmail.com",
+      "password": "pass123",
+      "role": "user",
+      "status": "Active",
+      "contactnumber": "8869839787",
+      "name": "Krishna Dubey"
+    },
+    {
+      "user_id": "12",
+      "name": "nehal",
+      "username": "nehal2",
+      "email": "nehal.kapoor@gmail.com",
+      "password": "nehal456",
+      "role": "hotelmanager",
+      "status": "active",
+      "contactnumber": "8765432123"
+    }
+  ]
+}
